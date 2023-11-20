@@ -1,0 +1,54 @@
+Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB. Abstraction. 
+Algorithms. Running Times. Pseudocode. 
+
+		Unary	human figure 			base-1 
+		Binary 	binary digit 01 		base-2
+			^^         ^  bit 0 or 1 Off On
+
+2^2 2^1 2^0
+4   2   1		4x0 + 	2x0 + 	1x0
+0   0   0		0     	0     	0
+
+000	0
+001 	1		off	off	on
+010	2		off	on	off	notice i didnt turn on the same bulb
+011	3		off	on	on
+100	4		on	off	off
+101	5		on	off	on
+110	6		on	on	off
+111	7		on 	on	on
+	
+	8 different patterns = permut them
+
+421
+1000		on	off	off	off
+						notice the pattern 2^6 2^5 2^4 2^3 2^2
+								   64  32  16  8   4
+		Decimal 0123456789 notice 10 digits	base-10
+
+		123
+		^^^
+		  ^ ----------------->	1's place
+		 ^  ----------------->	10's place
+		^   ----------------->  100's place
+		so 123 = 100 x 1  	+ 	10 x 2		+ 	1 x 3
+		       = 100 		+	20		+	1
+ 		       = 123
+			10^2			10^1			10^0
+why is this 	
+
+now add a 4th bit	 8 4 2 1 
+			 1000
+
+bit 	each bit is a light bulb
+byte	8 bits in byte
+
+Binary 	binary digit	bi   t	 -----------------> bit
+	^^         ^  
+
+1  1 1 1 1 1 1 1
+1286432168 4 2 1			sum 255
+128+64+32+16+8+4+2+1			sum 255	thus 0 to 255	thus total 256 possibilities
+
+hexadecimal		0123456789 A B C D E F G
+			0123456789 10111213141516
